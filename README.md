@@ -9,11 +9,29 @@
 - **Wordmark**: Black and white background variations
 - **File formats**: PNG for web/print, SVG for scalable use
 
-### 🔤 Font System (`/fonts/`)
-- **Primary**: Space Grotesk (display, headers)
-- **Secondary**: Satoshi Complete (body text)
-- **Accent**: NulTien (special cases)
-- **Formats**: Complete font families with all weights
+### 🔤 Typography System (`/fonts/`)
+
+**Primary Typeface: Space Grotesk**
+- **Use**: Headlines, display text, hero sections
+- **Weights**: Regular, Medium, Bold
+- **Character**: Modern, geometric, technical feel
+
+**Secondary Typeface: Satoshi**
+- **Use**: Body text, descriptions, UI elements
+- **Weights**: Regular, Medium, Bold, Black
+- **Character**: Clean, readable, contemporary
+
+**Accent Typeface: NulTien**
+- **Use**: Special callouts, distinctive elements
+- **Weights**: Regular, Bold
+- **Character**: Unique, attention-grabbing
+
+**Typography Hierarchy:**
+- **H1**: Space Grotesk Bold, 48px+
+- **H2**: Space Grotesk Medium, 36px+  
+- **H3**: Space Grotesk Medium, 24px+
+- **Body**: Satoshi Regular, 16px
+- **Caption**: Satoshi Medium, 14px
 
 ### ⚡ Graphic Elements (`/graphics/`)
 - **Design Assets**: Core visual elements and patterns
@@ -32,15 +50,44 @@
 - **Clear space**: Logo height on all sides
 - **Backgrounds**: Use appropriate contrast versions
 
-### Typography
-- **Headers**: Space Grotesk (Bold/Medium)
-- **Body text**: Satoshi (Regular/Medium)
-- **Special**: NulTien for distinctive elements
+### Typography Implementation
+- **Headers**: Space Grotesk (Bold for H1, Medium for H2-H3)
+- **Body text**: Satoshi Regular (16px base size)
+- **UI elements**: Satoshi Medium (buttons, labels)
+- **Special callouts**: NulTien for distinctive elements
+- **Code/technical**: Use system monospace fonts
 
-### Colors
-- **Primary**: Black (#000000)
-- **Secondary**: White (#FFFFFF)
-- **Accent**: Match your content/platform aesthetic
+**Line Height Guidelines:**
+- Headers: 1.2x font size
+- Body text: 1.6x font size  
+- UI elements: 1.4x font size
+
+## 🎨 Color System
+
+### Primary Colors
+- **Black**: `#000000` - Main brand color, logos, text
+- **White**: `#FFFFFF` - Contrast, backgrounds, negative space
+
+### Neutral Palette  
+- **Gray 900**: `#111827` - Dark text, strong contrast
+- **Gray 800**: `#1F2937` - Secondary dark elements
+- **Gray 600**: `#4B5563` - Medium contrast text
+- **Gray 400**: `#9CA3AF` - Subtle text, placeholders
+- **Gray 200**: `#E5E7EB` - Light borders, dividers
+- **Gray 100**: `#F3F4F6` - Background tints
+- **Gray 50**: `#F9FAFB` - Lightest background
+
+### Accent Colors (Use Sparingly)
+- **Blue**: `#3B82F6` - Links, actions, highlights
+- **Green**: `#10B981` - Success, positive states
+- **Red**: `#EF4444` - Errors, warnings, critical
+- **Yellow**: `#F59E0B` - Attention, warnings
+
+### Usage Guidelines
+- **Maintain contrast**: Minimum 4.5:1 ratio for accessibility
+- **Hierarchy**: Use color to establish visual hierarchy
+- **Consistency**: Stick to the defined palette
+- **Context**: Choose colors that support the content message
 
 ## 🚀 Quick Start
 
