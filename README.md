@@ -54,15 +54,15 @@
 ### Primary Colors
 | Color | Swatch | Hex | RGB | CMYK | Role |
 |-------|--------|-----|-----|------|------|
-| **Black** | ![#000000](https://via.placeholder.com/20x20/000000/000000.png) | `#000000` | 0, 0, 0 | 0, 0, 0, 100 | Primary background |
-| **White** | ![#FFFFFF](https://via.placeholder.com/20x20/FFFFFF/FFFFFF.png) | `#FFFFFF` | 255, 255, 255 | 0, 0, 0, 0 | Primary text/logo on dark |
+| **Black** | ![#000000](https://img.shields.io/badge/-%23000000-000000?style=flat-square) | `#000000` | 0, 0, 0 | 0, 0, 0, 100 | Primary background |
+| **White** | ![#FFFFFF](https://img.shields.io/badge/-%23FFFFFF-FFFFFF?style=flat-square) | `#FFFFFF` | 255, 255, 255 | 0, 0, 0, 0 | Primary text/logo on dark |
 
 ### Secondary Colors  
 | Color | Swatch | Hex | RGB | CMYK | Role |
 |-------|--------|-----|-----|------|------|
-| **Red** | ![#FF3500](https://via.placeholder.com/20x20/FF3500/FF3500.png) | `#FF3500` | 255, 53, 0 | 0, 79, 100, 0 | Primary accent |
-| **Purple** | ![#B75AFF](https://via.placeholder.com/20x20/B75AFF/B75AFF.png) | `#B75AFF` | 183, 90, 255 | 28, 65, 0, 0 | Secondary accent |
-| **Pink** | ![#FF9FC2](https://via.placeholder.com/20x20/FF9FC2/FF9FC2.png) | `#FF9FC2` | 255, 159, 194 | 0, 38, 24, 0 | Secondary accent |
-| **Lime** | ![#BCFF00](https://via.placeholder.com/20x20/BCFF00/BCFF00.png) | `#BCFF00` | 188, 255, 0 | 26, 0, 100, 0 | Secondary accent |
-| **Blue** | ![#002AF0](https://via.placeholder.com/20x20/002AF0/002AF0.png) | `#002AF0` | 0, 42, 240 | 100, 83, 0, 6 | Secondary accent |
+| **Red** | ![#FF3500](https://img.shields.io/badge/-%23FF3500-FF3500?style=flat-square) | `#FF3500` | 255, 53, 0 | 0, 79, 100, 0 | Primary accent |
+| **Purple** | ![#B75AFF](https://img.shields.io/badge/-%23B75AFF-B75AFF?style=flat-square) | `#B75AFF` | 183, 90, 255 | 28, 65, 0, 0 | Secondary accent |
+| **Pink** | ![#FF9FC2](https://img.shields.io/badge/-%23FF9FC2-FF9FC2?style=flat-square) | `#FF9FC2` | 255, 159, 194 | 0, 38, 24, 0 | Secondary accent |
+| **Lime** | ![#BCFF00](https://img.shields.io/badge/-%23BCFF00-BCFF00?style=flat-square) | `#BCFF00` | 188, 255, 0 | 26, 0, 100, 0 | Secondary accent |
+| **Blue** | ![#002AF0](https://img.shields.io/badge/-%23002AF0-002AF0?style=flat-square) | `#002AF0` | 0, 42, 240 | 100, 83, 0, 6 | Secondary accent |
 
