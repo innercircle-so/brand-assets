@@ -9,29 +9,33 @@
 - **Wordmark**: Black and white background variations
 - **File formats**: PNG for web/print, SVG for scalable use
 
-### 🔤 Typography System (`/fonts/`)
+## 🔤 Typography System (`/fonts/`)
 
-**Primary Typeface: Space Grotesk**
-- **Use**: Headlines, display text, hero sections
-- **Weights**: Regular, Medium, Bold
-- **Character**: Modern, geometric, technical feel
+### H1 / Display: Space Grotesk Bold
+- **Size**: 48-96px
+- **Letter-spacing**: 0.02em
+- **Use**: Hero headlines and major titles
 
-**Secondary Typeface: Satoshi**
-- **Use**: Body text, descriptions, UI elements
-- **Weights**: Regular, Medium, Bold, Black
-- **Character**: Clean, readable, contemporary
+### H2 / Section: Space Grotesk SemiBold  
+- **Size**: 28-48px
+- **Use**: Section headings, event names, card titles
 
-**Accent Typeface: NulTien**
-- **Use**: Special callouts, distinctive elements
-- **Weights**: Regular, Bold
-- **Character**: Unique, attention-grabbing
+### Body: Satoshi Regular
+- **Size**: 14-17px
+- **Color**: White (#FFF) for primary, #888 for secondary
+- **Line height**: 1.6-1.7
+- **Use**: Main content, descriptions, paragraphs
 
-**Typography Hierarchy:**
-- **H1**: Space Grotesk Bold, 48px+
-- **H2**: Space Grotesk Medium, 36px+  
-- **H3**: Space Grotesk Medium, 24px+
-- **Body**: Satoshi Regular, 16px
-- **Caption**: Satoshi Medium, 14px
+### Labels / Eyebrow Text: Space Grotesk or Satoshi
+- **Size**: 10-12px
+- **Style**: All-caps
+- **Letter-spacing**: 0.1-0.2em  
+- **Use**: Categories, tags, eyebrow lines
+
+**Available Font Families:**
+- **Space Grotesk**: Display, headlines (geometric, modern)
+- **Satoshi**: Body text, UI elements (clean, readable)
+- **NulTien**: Special accents, distinctive callouts
 
 ### ⚡ Graphic Elements (`/graphics/`)
 - **Design Assets**: Core visual elements and patterns
@@ -51,43 +55,40 @@
 - **Backgrounds**: Use appropriate contrast versions
 
 ### Typography Implementation
-- **Headers**: Space Grotesk (Bold for H1, Medium for H2-H3)
-- **Body text**: Satoshi Regular (16px base size)
-- **UI elements**: Satoshi Medium (buttons, labels)
-- **Special callouts**: NulTien for distinctive elements
-- **Code/technical**: Use system monospace fonts
+- **H1 Display**: Space Grotesk Bold (48-96px, 0.02em letter-spacing)
+- **H2 Section**: Space Grotesk SemiBold (28-48px)
+- **Body text**: Satoshi Regular (14-17px, 1.6-1.7 line height)
+- **Labels**: Space Grotesk/Satoshi (10-12px, all-caps, 0.1-0.2em spacing)
+- **Accents**: NulTien for special distinctive elements
 
-**Line Height Guidelines:**
-- Headers: 1.2x font size
-- Body text: 1.6x font size  
-- UI elements: 1.4x font size
+**Color Applications:**
+- Primary text: White (#FFFFFF)
+- Secondary text: #888888
+- Contrast: Ensure readability on brand backgrounds
 
 ## 🎨 Color System
 
 ### Primary Colors
-- **Black**: `#000000` - Main brand color, logos, text
-- **White**: `#FFFFFF` - Contrast, backgrounds, negative space
+| Color | Hex | RGB | CMYK | Role |
+|-------|-----|-----|------|------|
+| **Black** | `#000000` | 0, 0, 0 | 0, 0, 0, 100 | Primary background |
+| **White** | `#FFFFFF` | 255, 255, 255 | 0, 0, 0, 0 | Primary text/logo on dark |
 
-### Neutral Palette  
-- **Gray 900**: `#111827` - Dark text, strong contrast
-- **Gray 800**: `#1F2937` - Secondary dark elements
-- **Gray 600**: `#4B5563` - Medium contrast text
-- **Gray 400**: `#9CA3AF` - Subtle text, placeholders
-- **Gray 200**: `#E5E7EB` - Light borders, dividers
-- **Gray 100**: `#F3F4F6` - Background tints
-- **Gray 50**: `#F9FAFB` - Lightest background
-
-### Accent Colors (Use Sparingly)
-- **Blue**: `#3B82F6` - Links, actions, highlights
-- **Green**: `#10B981` - Success, positive states
-- **Red**: `#EF4444` - Errors, warnings, critical
-- **Yellow**: `#F59E0B` - Attention, warnings
+### Secondary Colors  
+| Color | Hex | RGB | CMYK | Role |
+|-------|-----|-----|------|------|
+| **Red** | `#FF3500` | 255, 53, 0 | 0, 79, 100, 0 | Primary accent |
+| **Purple** | `#B75AFF` | 183, 90, 255 | 28, 65, 0, 0 | Secondary accent |
+| **Pink** | `#FF9FC2` | 255, 159, 194 | 0, 38, 24, 0 | Secondary accent |
+| **Lime** | `#BCFF00` | 188, 255, 0 | 26, 0, 100, 0 | Secondary accent |
+| **Blue** | `#002AF0` | 0, 42, 240 | 100, 83, 0, 6 | Secondary accent |
 
 ### Usage Guidelines
-- **Maintain contrast**: Minimum 4.5:1 ratio for accessibility
-- **Hierarchy**: Use color to establish visual hierarchy
-- **Consistency**: Stick to the defined palette
-- **Context**: Choose colors that support the content message
+- **Primary colors**: Black backgrounds with white text/logos
+- **Accent colors**: Use sparingly for highlights and CTAs
+- **Print**: Use CMYK values for print materials
+- **Digital**: Use Hex/RGB values for web and digital
+- **Accessibility**: Maintain proper contrast ratios
 
 ## 🚀 Quick Start
 
